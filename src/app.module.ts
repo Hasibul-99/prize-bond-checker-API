@@ -6,6 +6,7 @@ import { AppService } from './app.service';
 import { BookModule } from './book/book.module';
 import { AuthModule } from './auth/auth.module';
 import { PrizeModule } from './prize/prize.module';
+import { UsersBondsModule } from './users-bonds/users-bonds.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { PrizeModule } from './prize/prize.module';
     BookModule,
     AuthModule,
     PrizeModule,
+    UsersBondsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
